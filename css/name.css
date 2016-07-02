@@ -1,0 +1,45 @@
+body {
+    background: #284ba9;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 22px;
+}
+
+@media (min-width: 992px) {
+    body::after {
+	content: "";
+	display:block;
+	position:absolute;
+	z-index: 22;
+	width: 128px;
+	height: 100%;
+	right: 22%;
+	top: 0px;
+	background-image: url('../img/iceland.png');
+    }
+
+    .form-group {
+	margin-top: 42px;
+	margin-bottom: 42px;
+    }
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.btn {
+    color: #222;
+}
+
+form {
+    margin-bottom: 22px;
+}
+
+#generate {
+    margin-top: 42px;
+}
+
+.navbar-fixed-bottom {
+    color: #222;
+}

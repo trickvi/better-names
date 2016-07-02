@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>What's my Icelandic name?</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/name.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+	<div class="col-sm-8 col-md-5 text-center">
+	  <h1>Want an Icelandic name?<small></small></h1>
+	  <form class="form-horizontal">
+	    <div class="form-group">
+	      <input class="form-control" type="text" maxlength="32" name="you" placeholder="Your given name, e.g. Nancy">
+	    </div>
+	    <div class="form-group">
+	      <input class="form-control" type="text" maxlength="32" name="parental" placeholder="Your father's name, e.g. Geoffrey">
+	    </div>
+	    <label>What's your gender?</label>
+	    <div class="btn-group" data-toggle="buttons">
+	      <label class="btn btn-default active">
+		<input type="radio" name="gender" value="female" autocomplete="off" checked>
+		♀ Female
+	      </label>
+	      <label class="btn btn-default">
+		<input type="radio" name="gender" value="male" autocomplete="off">
+		♂ Male
+	      </label>
+	    </div>
+	  </form>
+	</div>
+      </div>
+      <div class="row">
+	<div class="col-sm-12 col-md-5">
+	  <div class="text-center">
+	    <button id="generate" class="btn btn-lg">Make me Icelandic!</button>
+	    <h2 id="icelandic-name"></h2>
+	  </div>
+	</div>
+      </div>
+      
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+	  <div>
+	    <small>
+	      Woooah! Look we need footnotes:
+	      <a href="#" data-toggle="popover" data-trigger="focus" title="Friendly correction" data-html="true" data-placement="top" data-content="This was made just to provide a working Icelandic name generator (instead of <a href='http://www.vg.no/spesial/2016/islandsk-navnegenerator/?lang=en'>vg.no's random and incorrect one</a>)."><span class="badge">1</span></a>
+	      <a href="#" data-toggle="popover" data-trigger="focus" title="Semi-open data" data-html="true" data-placement="top" data-content="Made with data from <a href='https://opingogn.is/dataset/mannanafnaskra'>Þjóðskrá Íslands</a> and <a href='http://bin.arnastofnun.is'>Stofnun Árna Magnússonar í íslenskum fræðum</a>."><span class="badge">2</span></a>
+	      <a href="#" data-toggle="popover" data-trigger="focus" title="Not really respectful" data-html="true" data-placement="top" data-content="It is possible to take on a mother's given name, but that complicates this webapp too much for its own good."><span class="badge">3</span></a>
+	      <a href="#" data-toggle="popover" data-trigger="focus" title="Hi!" data-html="true" data-placement="top" data-content="Made by Trickvi B10n. Here's the <a href='https://github.com/trickvi/better-names/'>Source code</a>"><span class="badge">4</span></a>
+	    </small>
+	  </div>
+	</div>
+      </nav>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/datasheet.js"></script>
+    <script src="js/unidecode.js"></script>
+    <script src="js/fuse.min.js"></script>
+    <script src="js/names.js"></script>
+    <script src="js/icelandic.name.js"></script>
+  </body>
+</html>
