@@ -3,6 +3,7 @@ body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     padding-top: 22px;
+    padding-bottom: 100px;
 }
 
 @media (min-width: 992px) {
