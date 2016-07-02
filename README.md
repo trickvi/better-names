@@ -15,3 +15,7 @@ Uses a list of Icelandic names <a href="https://opingogn.is/dataset/mannanafnask
 Uses data from the <a href="http://bin.arnastofnun.is/>The Database of Modern Icelandic Inflection</a> to find the genetive form of the father's name (so it'll be correct). Correct reference would is: Beygingarlýsing íslensks nútímamáls. [The Database of Modern Icelandic Inflection.]   (n.d.) Kristín Bjarnadóttir, editor. The Árni Magnússon Institute for Icelandic Studies. Accessed 01.07.2016 from [bin.arnastofnun.is](http://bin.arnastofnun.is).
 
 Both datasets need to be downloaded before the script can be run. The DMII should be in "Sigrúnarsnið".
+
+## Origin story
+
+Based on [Aure Moser's suggestion](https://twitter.com/auremoser/status/748326674572390400) I included an [ORIGINSTORY](ORIGINSTORY.md).
