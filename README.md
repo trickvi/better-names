@@ -2,7 +2,9 @@
 
 A really simple webapp to generate Icelandic names. It fuzzy matches two names (the user's and the user's father's names) with Icelandic names (it fuzzy matches their slugs to account for different alphabets).
 
-## Webapp
+The webapp is at [http://my-icelandic-name.is/](http://my-icelandic-name.is/).
+
+## Webapp technology
 
 Webapp uses [Fuse.js](http://kiro.me/projects/fuse.html) for fuzzy matching and [JSunidecode](https://github.com/xen0n/jsunidecode/) for slugifying names. Thanks to those developers for making this a quick hack.
 
